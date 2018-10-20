@@ -15,7 +15,7 @@ body {
 /* Header */
 #header {
 height: 242px
-background:url(images/Header.png) no-repeat left top;
+background: url(images/Header.png) no-repeat left top;
 /*
 margin: 0px auto 15px auto;
 font-family: Verdana, Arial, Helvetica, Sans-Serif;
