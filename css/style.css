@@ -1,5 +1,5 @@
 /* Body */
-#body {
+body {
 	background: #A52A2A url(images/BG.jpg) repeat-x;
 	}
 
@@ -18,6 +18,10 @@ height: 242px
 margin: 0px auto 15px auto;
 font-family: Verdana, Arial, Helvetica, Sans-Serif;
 color: #F5F5DC;
+	}
+
+#topbar {
+	height: 78px;
 	}
 
 /* Header Menu */
