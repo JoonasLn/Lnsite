@@ -1,8 +1,20 @@
+#wrap  {
+	width: 700px;
+	margin: 0px auto 15px auto;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	}
+
 /* Header */
 Header {
-height:242PX
-margin:0px auto 15px auto;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-color: #F5F5DC
+height: 242px
+margin: 0px auto 15px auto;
+font-family: Verdana, Arial, Helvetica, Sans-Serif;
+color: #F5F5DC;
+	}
 
-}
+/* Body */
+#body {
+	background: #A52A2A url(images/BG.jpg) repeat-x;
+	}
