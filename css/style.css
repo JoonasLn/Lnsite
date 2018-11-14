@@ -4,13 +4,19 @@
 		}
 
 /* Wrap */
-	#wrap  {
+	#wrap {
 		width: 700px;
 		margin: 0px auto 15px auto;
 		font-family:Verdana, Arial, Helvetica, sans-serif;
 		font-size: 12px;
 		color: #666666;
 		}
+
+/* Content */
+	#content {
+		width 700px;
+		}
+
 
 /* Header */
 	#header {
@@ -62,6 +68,11 @@
 	#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
 		color: #FFFFFF;
 		background-color: #008B8B;
+		}
+
+/* Footer */
+	#footer {
+		color:"#8A2BE2"
 		}
 
 /* box-sizing: border-box; on all elements */
