@@ -33,7 +33,7 @@
 	#topmenu {
 		display: block;
 		list-style: none;
-		padding: 5px 150px 5px 250px;
+		padding: 5px 200px 5px 200px;
 		float: right;
 		max-width: 700px;
 		background-color: #DEB887;
@@ -47,26 +47,28 @@
 	#topmenu a {
 		display: block;
 		float: left;
-		height: 30px;
+		height: 35px;
 		margin: 0px 0pc 0px 0px;
 		text-decoration: none;
 		padding: 10px 15px 0px 15px;
 		text-align: center;
 		}
 
-	#topmenu a, #topmenu a:visited, #topmenu a: active {
+	#topmenu a, #topmenu a:visited, #topmenu a:active {
 		color: #DC143C;
 		}
 
 	#topmenu a:hover {
-		color: #EEE8AA;
+		color: #DC143C;
 		background-color: #2F4F4F;
 		}
 
+/*
 	#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active{
 		color: #FAFAD2;
 		background-color: #008B8B;
 		}
+*/
 
 /* Footer */
 	#footer {
