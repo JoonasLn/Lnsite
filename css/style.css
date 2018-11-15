@@ -74,8 +74,9 @@
 	#topmenu {
 		display: block;
 		list-style: none;
-		padding: 5px 240px 5px 240px;
+		padding: 5px 0px 5px 0px;
 		float: right;
+		width: 700px;
 		max-width: 700px;
 		background-color: #DEB887;
 		position: fixed;
@@ -89,8 +90,9 @@
 		display: block;
 		float: left;
 		height: 35px;
-		margin: 0px 0pc 0px 0px;
-		text-decoration: none;
+		margin: 0px 0px 0px 5px;
+		font-weight: bold;
+		text-decoration: underline dotted #DC143C;
 		padding: 10px 15px 0px 15px;
 		text-align: center;
 		}
