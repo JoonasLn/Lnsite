@@ -66,6 +66,14 @@
 		background-color: #008B8B;
 		}
 
+/* Image */
+	#image {
+		height: auto;
+		width: auto;
+		max-width: 400px;
+		max-height: 400px;
+		}
+
 /* Footer */
 	#footer {
 		color:"#8A2BE2"
