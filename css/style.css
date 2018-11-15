@@ -1,9 +1,7 @@
 /* Body */
-/*
 	body {
 		background: #A52A2A url(../images/BG.jpg) repeat-x;
 		}
-*/
 
 /* Wrap */
 	#wrap {
@@ -23,7 +21,7 @@
 /* Header */
 	#header {
 		height: 100px;
-		background: url(../images/Header.png) no-repeat left top;
+		background: url(../images/Header.png) no-repeat center top;
 		clear: both;
 		}
 
@@ -35,10 +33,10 @@
 	#topmenu {
 		display: block;
 		list-style: none;
-		padding: 25px 50px 25px 150px;
+		padding: 5px 150px 5px 250px;
 		float: right;
 		max-width: 700px;
-		background-color: #0000FF;
+		background-color: #DEB887;
 		position: fixed;
 		}
 
@@ -76,9 +74,9 @@
 		width: 680px;
 		height: 50px;
 		padding: 10px;
-		color: #8A2BE2;
+		color: #F08080;
 		text-align: center;
-		background: #DDA0DD;
+		background: #800000;
 		font-family: Verdana, Arial, Helvetica, sans-serif;
 		font-size: 10px;
 		clear: both;
