@@ -66,18 +66,18 @@
 		background-color: #008B8B;
 		}
 
+/* Footer */
+	#footer {
+		color:"#8A2BE2"
+		}
+
 /* Image */
-	#img {
+	img {
 		margin: 50px;
 		height: auto;
 		width: auto;
 		max-width: 350px;
 		max-height: 350px;
-		}
-
-/* Footer */
-	#footer {
-		color:"#8A2BE2"
 		}
 
 /* box-sizing: border-box; on all elements */
