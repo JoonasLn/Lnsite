@@ -36,6 +36,8 @@
 		padding: 25px 50px 25px 150px;
 		float: right;
 		max-width: 700px;
+		background-color: #0000FF;
+		position: fixed;
 		}
 
 	#topmenu li {
@@ -53,11 +55,11 @@
 		}
 
 	#topmenu a, #topmenu a:visited, #topmenu a: active {
-		color: #FFFFFF
+		color: #DC143C;
 		}
 
 	#topmenu a:hover {
-		color: #EEE8AA
+		color: #EEE8AA;
 		background-color: #2F4F4F;
 		}
 
@@ -68,7 +70,16 @@
 
 /* Footer */
 	#footer {
-		color:"#8A2BE2"
+		margin: 0 auto;
+		width: 680px;
+		height: 20px;
+		padding: 10px;
+		color: #8A2BE2;
+		text-align: center;
+		background: #DDA0DD;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 10px;
+		clear: both;
 		}
 
 /* Image */
