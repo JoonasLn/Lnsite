@@ -20,8 +20,9 @@
 
 /* Header */
 	#header {
-		height: 100px;
-		background: url(../images/Header.png) no-repeat center top;
+		margin: 50px 0px 0px 0px;
+		height: 75px;
+		background: url(../images/Header.png) no-repeat left top;
 		clear: both;
 		}
 
@@ -33,7 +34,7 @@
 	#topmenu {
 		display: block;
 		list-style: none;
-		padding: 5px 200px 5px 200px;
+		padding: 5px 240px 5px 240px;
 		float: right;
 		max-width: 700px;
 		background-color: #DEB887;
