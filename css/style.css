@@ -1,7 +1,9 @@
 /* Body */
+/*
 	body {
 		background: #A52A2A url(../images/BG.jpg) repeat-x;
 		}
+*/
 
 /* Wrap */
 	#wrap {
@@ -20,7 +22,7 @@
 
 /* Header */
 	#header {
-		height: 200px
+		height: 100px;
 		background: url(../images/Header.png) no-repeat left top;
 		clear: both;
 		}
@@ -72,7 +74,7 @@
 	#footer {
 		margin: 0 auto;
 		width: 680px;
-		height: 20px;
+		height: 50px;
 		padding: 10px;
 		color: #8A2BE2;
 		text-align: center;
