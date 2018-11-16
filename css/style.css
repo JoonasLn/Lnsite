@@ -22,13 +22,42 @@
 		background: #b62f2f;
 		}
 
-	#content p{
+/* Paragraph */
+	#content p {
 		width 700px;
 		text-align: justify;
 		color: #F5F5DC;
 		padding: 0px 10px 0px 10px;
 		}
 
+/* List */
+	#content ol, #content ul {
+		margin: 0px 0px px 15px;
+		}
+
+	#content li {
+		padding: 0px 0px 3px 5px;
+		}
+
+/* Table */
+	#content table {
+		border: 3px solid #F5F5DC;
+		margin: 0px 0px 5px 40px;
+		border-collapse: collapse;
+		background: #A52A2A;
+		}
+
+	#content th {
+		border: 3px solid #F5F5DC;
+		padding: 5px 15px 5px 15px;
+		}
+
+	#content td {
+		border: 1px solid #F5F5DC;
+		padding: 5px 15px 5px 15px;
+		}
+
+/* Header */
 	h1, h2, h3, h4, h5, h6, h7 {
 		font-weight: bold;
 		font-family: Arial, Helvetica, sans-serif;
@@ -47,6 +76,7 @@
 		font-size: 20px;
 		}
 
+/* Centering (images etc.) */
 	.center {
 		display: block;
 		margin-left: auto;
@@ -56,7 +86,7 @@
 
 
 
-/* Header */
+/* Header images */
 	#header {
 		margin: 50px 0px 0px 0px;
 		height: 75px;
@@ -64,13 +94,18 @@
 		clear: both;
 		}
 
+	#contact {
+		margin: 50px 0px 0px 0px;
+		height: 75px;
+		background: url(../images/ContactUs.png) no-repeat center top;
+		clear: both;
+	}
+
+/* Header Menu */
 	#topbar {
 		height: 80px;
 		}
 
-
-
-/* Header Menu */
 	#topmenu {
 		display: block;
 		list-style: none;
