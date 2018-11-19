@@ -9,6 +9,31 @@
 
 	<link href="css/style.css" rel="stylesheet" 	type="text/css">
 
+	<script>
+		function validateForm() {
+		
+		var x = document.forms["contactForm"]["firstname"].value;
+		if (x == "") {
+			alert("First name must be filled out!");
+			return false;
+			}
+			
+		var y = document.forms["contactForm"]["lastname"].value;
+		if (y == "") {
+			alert("Last name must be filled out!");
+			return false;
+			}
+		
+		var z = document.forms["contactForm"]["email"].value;
+		if (z == "") {
+			alert("eMail must be filled out!");
+			return false;
+			}
+		
+		return true;
+		}
+	</script>
+
 </head>
 
 
@@ -46,9 +71,31 @@
 
 	<h1>Contact form</h1>
 
-	<p> Please fill out the form below to contact us:</p>
+	<p> Please fill out the form below to contact us. Fields marked with a star (*) are mandatory.</p>
+
+
+
+	<form name="contactForm" onsubmit="return validateForm()">
+		First name: *<br>
+		<input type="text" name="firstname"><br>
+		<br>
+		Last name: *<br>
+		<input type="text" name="lastname"><br>
+		<br>
+		eMail address: *<br>
+		<input type="text" name="email"><br>
+		<br>
+		Message:<br>
+		<input type="text" name="message"><br>
+		<br>
+		<input type="submit" value="Send message">
+	</form>
+
+
 	
 	</div>
+
+
 
 	<div id="footer">
 	<p>HTML page by Joonas Luhtaniemi, 2018</p>
