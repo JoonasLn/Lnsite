@@ -94,6 +94,11 @@
 		font-size: 20px;
 		}
 
+/* Video */
+	#content video {
+		margin: 5px 5px 5px 20px;
+		}
+
 /* Centering (images etc.) */
 	.center {
 		display: block;
