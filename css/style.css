@@ -63,6 +63,18 @@
 		padding: 5px 0px 10px 0px;
 		}
 
+/* textarea */
+	#content textarea {
+		width: 600px;
+		height: 200px;
+		}
+
+/* Button */
+	#content button {
+		margin: 5px 0px 5px 40px;
+		padding: 1px 5px 1px 5px;
+		}
+
 /* Header */
 	h1, h2, h3, h4, h5, h6, h7 {
 		font-weight: bold;

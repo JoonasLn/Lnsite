@@ -77,23 +77,47 @@
 
 
 	<form name="contactForm" onsubmit="return validateForm()">
-		First name: *<br>
-		<input type="text" name="firstname"><br>
+		<b>First name: *</b><br>
+		<input type="text" name="firstname" maxlength="50"><br>
 		<br>
-		Last name: *<br>
-		<input type="text" name="lastname"><br>
+		<b>Last name: *</b><br>
+		<input type="text" name="lastname" maxlength="50"><br>
 		<br>
-		eMail address: *<br>
-		<input type="text" name="email"><br>
+		<b>eMail address: *</b><br>
+		<input type="email" name="email" maxlength="200"><br>
 		<br>
-		Message:<br>
-		<input type="text" name="message"><br>
+		<b>Message:</b><br>
+		<textarea name="message" maxlength="3000" size="50"></textarea><br>
 		<br>
+		<b>Location (filled automatically):</b>
+		<p id="place"></p><br>
 		<input type="submit" value="Send message">
 	</form>
-
-
 	
+	<p>You can add your current location to the message by pressing this button before sending the message (optional):</p>
+	
+	<button onclick="getLocation()">Add my location</button>
+	<br>
+	<p id="place"></p>
+	
+	<script>
+		var x = document.getElementById("place");
+		
+		function getLocation() {
+			if (navigator.geolocation) {
+	navigator.geolocation.getCurrentPosition(showPosition);
+			}
+			else {
+			x.innerHTML = "Geolocation is not supported by this browser.";
+			}
+		}
+
+		function showPosition(position) {
+		x.innerHTML = "Latitude: " + position.coords.latitude + "<br>Longitude: " + position.coords.longitude;
+		}
+
+	</script>
+
 	</div>
 
 
