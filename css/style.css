@@ -115,10 +115,10 @@
 /* Drag and drop */
 	#dragbox1, #dragbox2 {
 		float: left;
-		width: 100px;
-		height: 100px;
-		margin: 15px 10px 15px 10px;
-		padding: 10px 10px 10px 10px;
+		width: 115px;
+		height: 115px;
+		margin: 5px 5px 5px 5px;
+		padding: 5px 5px 5px 5px;
 		border: 1px solid #F5F5DC;
 		}
 
@@ -199,7 +199,7 @@
 
 /* Image */
 	img {
-		margin: 25px;
+		margin: 0px;
 		height: auto;
 		width: auto;
 		max-width: 350px;
