@@ -112,6 +112,15 @@
 		width: 50%;
 		}
 
+/* Drag and drop */
+	#draggable1, #draggable2 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #F5F5DC;
+
 
 
 /* Header images */

@@ -9,6 +9,22 @@
 
 	<link href="css/style.css" rel="stylesheet" 	type="text/css">
 
+	<script>
+		function allowDrop(ev) {
+			ev.preventDefault();
+		}
+
+		function drag(ev) {
+			ev.dataTransfer.setData("text", ev.target.id);
+		}
+
+		function drop(ev) {
+			ev.preventDefault();
+			var data = ev.dataTransfer.getData("text");
+		ev.target.appendChild(document.getElementById(data));
+		}
+	</script>
+
 </head>
 
 
@@ -110,6 +126,19 @@
 	</audio>
 
 	<p>Audio clip provided by Cat Stevens at <a href="http://soundbible.com/1954-Cat-Meow-2.html">Soundbible</a>.</p>
+
+	<h2>Drag and drop fan art</h2>
+
+	<p>You can drag the fan art back and forth between the two 	boxes!</p>
+	
+	<table>
+	<div id="draggable1" ondrop="drop(event)" 	ondragover="allowDrop(event)">
+	<img src="images/Catcus.png" draggable="true" 	ondragstart="drag(event)" id="drag1" width="88" height="31">
+	</div>
+
+	<div id="draggable2" ondrop="drop(event)" 	ondragover="allowDrop(event)"></div>
+	</table>
+	<br>
 
 	<p class="center"><i>See you in the garden!</i></p>
 	
